@@ -1,0 +1,100 @@
+#nav-bar {
+    color: #EBEBEB;
+    background-color: #20333D;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    text-align: center;
+    border-bottom: 5px solid #365466;
+    border-radius: 20%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #20333D;
+    font-family: Georgia, serif;
+}
+
+.name-header {
+    color: #111111;
+    background-color: #EBEBEB;
+    border: 2px solid #365466;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#name {
+    font-size: 48px;
+    margin-top: 15px;
+}
+
+#major {
+    font-size: 24px;
+    margin-top: -25px;
+    font-weight: bold;
+}
+
+/* Nav link styles: remove default blue and underlines */
+#nav-bar a {
+    color: #EBEBEB;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Hover state */
+#nav-bar a:hover {
+    text-decoration: underline;
+}
+
+/* Visited links should keep the same color */
+#nav-bar a:visited {
+    color: #EBEBEB;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid #111111;
+    margin-top: 20px;
+}
+
+p {
+    color: #111111;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-content {
+    background-color: #EBEBEB;
+    margin-left: 15vw;
+    margin-right:15vw;
+    margin-top: 1vh;
+    border: 2px solid #365466;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1em;
+}
+
+footer, #footer-text {
+    background-color: #20333D;
+    color: #EBEBEB;
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 20px;
+}
