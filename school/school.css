@@ -1,0 +1,15 @@
+#scholarship-picture {
+    width: 500px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+#clubs {
+    border-top: 2px solid #365466;
+}
+
+.club-logos {
+    border: 0px;
+}
